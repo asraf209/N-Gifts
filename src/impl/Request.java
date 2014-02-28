@@ -28,6 +28,7 @@ class Request {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			System.out.println("Bad server response!");
 		}
 		return null;
 	}
@@ -49,6 +50,7 @@ class Request {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block			
 			e.printStackTrace();
+			System.out.println("Bad server response!");
 		}
 		return null;
 	}
